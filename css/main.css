@@ -1,0 +1,219 @@
+/*font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Fira Mono', monospace;*/
+
+body {
+	font-family: 'Fira Mono', monospace;
+	color:black;
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+	padding-top: 40px;
+	background: url('../img/fon1.svg') no-repeat right top;
+	height: 796px;
+
+} 	
+
+.logo {
+	width: 155px;
+	height: 100px;
+}
+
+.menu {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 40px;
+	font-size: 30px;
+	letter-spacing: 0.2ex;
+}
+
+.menu__item {
+	margin: 0 46px;
+}
+
+.menu__item a {
+    font-size:22px;
+    color: #888585;
+}
+
+h1 {
+	font-family: 'Fira Sans';
+	font-weight: 800;
+}
+
+h2 {
+	color: #3F546C;
+}
+
+.offer__text {
+	font-size: 22px;
+	padding-bottom: 25px;
+}
+
+.offer {
+	padding-top: 100px;
+}
+
+.offer__title {
+	padding-bottom: 25px;
+	font-size: 40px;
+	letter-spacing: 0.2ex;
+}
+
+.btn {
+ font-family: 'Fira Mono', monospace;
+ font-weight: 700;
+ font-size: 17px;
+ background: #F78CF0;
+ color: #000000;
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ transition: all 0.5s ease;
+ border-radius: 54px;
+ padding: 15px 33px;
+ width: 187px;
+ border: none;
+}
+
+.btn:hover {
+	background: #EB2CDE;
+	color: #000000;
+	text-decoration: none;	
+}
+
+.hero {
+
+}
+
+
+.learn__text {
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.about__text {
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+.about {
+	background: url('../img/fon2.png') no-repeat left top;
+	height: 1686px;
+}
+
+.about__tittle {
+	text-align: center;
+}
+
+.about__work {
+	padding-top: 214px;
+	padding-bottom: 117px;
+}
+
+.tarif {
+	background: url('../img/fon3.png') no-repeat;
+	height: 665px;
+	background-size: 100%;
+	padding-top: 330px;
+	margin-top: -220px;
+
+}
+
+.price__tariff {
+	justify-content: space-between;
+}
+
+.price__tarif {
+	width:312.74px;
+	height:238px;
+	background:#FFFFFF;
+	border-radius: 30px;
+	box-shadow: 10px 10px 60px rgba(141, 154, 169, 0.5);
+	margin-top: -200px;
+	margin-bottom: 140px;
+	text-align: center;
+	display: table-cell;
+  vertical-align: middle;
+}
+
+.price__tarif__text {
+	font-size: 16px;
+	color: #506883;
+	padding-top: 52px;
+}
+
+.price__tarif__tittle {
+	font-size: 30px;
+	color: #000000;
+	margin-top:  29px;
+	margin-bottom:  29px;
+}
+
+.price__tarif__textt {
+	font-size: 16px;
+	color: #506883;
+}
+
+footer {
+	background: url('../img/fon4.png') no-repeat;
+	height: auto;
+	background-size: 100%;
+	padding: 0;
+}
+
+.contact__text {
+	text-align: center;
+	padding-top: 240px;
+}
+
+.footer__contact {
+	justify-content: space-around;
+	padding-top: 30px;
+}
+
+.btn__text {
+	text-align: center;
+}
+
+.footer__btn {
+	margin: 30px 0;
+	width: 225px;
+	display:inline-block;
+	justify-content: center;
+	border: none;
+}
+
+
+
+/*Медиа-запросы*/
+@media screen and (min-width: 1440px) {
+	.tarif {
+		height: 1300px;
+	}
+
+	.price__tarif {
+    	margin-top: -800px;
+    }
+
+    footer {
+    	margin-top: -250px;
+    	background-size: 100%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+	.about {
+   background-size: 90%;
+}
+}
